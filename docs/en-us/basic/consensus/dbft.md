@@ -38,7 +38,7 @@ A new block will be generated with each round of consensus, with at least N − 
 
 A round of consensus consists of 4 steps, as shown in the Figure above.
 
-1. Speaker starts consensus by broadcasting a Prepare Request message,
+1. Leader starts consensus by broadcasting a Prepare Request message,
 2. Delegates broadcast Prepare Response after receiving the Prepare Request message,
 3. Validators broadcast Commit after receiving enough Prepare Response messages,
 4. Validators produce & broadcast a new block after receiving enough Commit messages.
